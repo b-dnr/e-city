@@ -1,0 +1,39 @@
+.header-nav {
+  background-color: rgb(138, 131, 126);
+}
+
+.links {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.contacts {
+  color: #615960;
+  margin-left: 900px;
+}
+
+.fa-whatsapp {
+  color: rgb(29, 138, 29);
+}
+
+.logo-hdr {
+  height: 95px;
+  width: 105px;
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
+
+.search-inp{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-btn{
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
