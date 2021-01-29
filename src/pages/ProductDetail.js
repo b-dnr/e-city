@@ -11,7 +11,7 @@ function ProductDetail(props) {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const url = "https://dianra-ecity.herokuapp.com/";
+    const url = "https://ecity-shop.herokuapp.com/";
 
     const isInCart = (item, cartItems) => {
         return !!cartItems.find((a) => a.id === item.id);

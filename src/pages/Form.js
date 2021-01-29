@@ -14,7 +14,7 @@ function Form(props) {
 
     const history = useHistory();
 
-    const url = "https://dianra-ecity.herokuapp.com/"
+    const url = "https://ecity-shop.herokuapp.com/"
 
     function addNewProduct(e) {
         e.preventDefault()
