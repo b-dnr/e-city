@@ -14,7 +14,7 @@ function Form(props) {
 
     const history = useHistory();
 
-    const url = "http://localhost:8000"
+    const url = "https://dianra-ecity.herokuapp.com/"
 
     function addNewProduct(e) {
         e.preventDefault()
@@ -28,7 +28,7 @@ function Form(props) {
         }
         if (title !== '' && price !== '') {
             (async function () {
-                await Axios.post(`${url}/posts`, data)
+                await Axios.post(`${url}posts`, data)
                 props.addNewProduct(data)
                 setTitle('')
                 setPrice('')

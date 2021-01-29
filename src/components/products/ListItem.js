@@ -13,7 +13,7 @@ import { connect } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import Axios from 'axios';
 
-const url = "http://localhost:8000"
+const url = "https://dianra-ecity.herokuapp.com/"
 
 function ListItem(props) {
     const [title, setTitle] = useState(props.item.title);
@@ -49,9 +49,9 @@ function ListItem(props) {
     function delData(id, e) {
         e.stopPropagation()
         async function delProduct(id) {
-            await Axios.delete(`${url}/posts/${id}`)
+            await Axios.delete(`${url}posts/${id}`)
             props.deleteProduct(id)
-            Axios.get(`${url}/posts`)
+            Axios.get(`${url}posts`)
                 .then(({ data }) => {
                     console.log(data)
                     props.fetchData(data)
@@ -71,7 +71,7 @@ function ListItem(props) {
         }
         console.log("PRE PATCH DATA", data)
         setIsOpen("")
-        Axios.patch(`${url}/posts/${id}`, data)
+        Axios.patch(`${url}posts/${id}`, data)
             .then((res) => {
                 props.editProduct(res.data)
             })

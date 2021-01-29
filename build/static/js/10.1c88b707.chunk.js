@@ -1,0 +1,2 @@
+(this.webpackJsonpmarketplace=this.webpackJsonpmarketplace||[]).push([[10],{158:function(e,t,a){"use strict";a.r(t);var n=a(0),o=a.n(n),r=a(10);t.default=function(){return localStorage.removeItem("token"),o.a.createElement(r.a,{to:"/auth/login"})}}}]);
+//# sourceMappingURL=10.1c88b707.chunk.js.map

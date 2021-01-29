@@ -11,14 +11,14 @@ function ProductDetail(props) {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const url = "http://localhost:8000";
+    const url = "https://dianra-ecity.herokuapp.com/";
 
     const isInCart = (item, cartItems) => {
         return !!cartItems.find((a) => a.id === item.id);
     }
     useEffect(() => {
         setLoading(true)
-        Axios.get(`${url}/posts`)
+        Axios.get(`${url}posts`)
             .then(({ data }) => {
 
                 setData(data);

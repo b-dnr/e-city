@@ -1,0 +1,2 @@
+(this.webpackJsonpmarketplace=this.webpackJsonpmarketplace||[]).push([[8],{164:function(t,e,D){"use strict";D.r(e);var a=D(0),n=D.n(a);e.default=function(){return n.a.createElement("div",null,n.a.createElement("img",{src:"https://ooo-plat.ru/wp-content/uploads/2015/09/%D0%A1%D0%B0%D0%B9%D1%82-%D0%B2-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5.png"}))}}}]);
+//# sourceMappingURL=8.505f1bab.chunk.js.map
